@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 17 Lut 2021, 19:19
+-- Czas generowania: 17 Lut 2021, 21:39
 -- Wersja serwera: 10.4.17-MariaDB
 -- Wersja PHP: 8.0.1
 
@@ -100,9 +100,21 @@ CREATE TABLE `klasa` (
 --
 
 INSERT INTO `klasa` (`id`, `klasa`) VALUES
-  ('III A'),
-  ('III B'),
-  ('III C');
+(1, 'III C'),
+(2, 'III B'),
+(3, 'III C'),
+(4, 'III A'),
+(5, 'III B'),
+(6, 'III C'),
+(7, 'III A'),
+(8, 'III B'),
+(9, 'III C'),
+(10, 'III A'),
+(11, 'III B'),
+(12, 'III A'),
+(13, 'III C'),
+(14, 'III B'),
+(15, 'III A');
 
 -- --------------------------------------------------------
 
@@ -120,13 +132,21 @@ CREATE TABLE `miejscezamieszkania` (
 --
 
 INSERT INTO `miejscezamieszkania` (`id`, `miejsceZamieszkania`) VALUES
-  ('Bydgoszcz'),
-  ('Koronowo'),
-  ('Białe Błota'),
-  ('Szubin'),
-  ('Nakło nad Notecią'),
-  ('Inowrocław'),
-  ('Otorowo');
+(1, 'Bydgoszcz'),
+(2, 'Koronowo'),
+(3, 'Bydgoszcz'),
+(4, 'Białe Błota'),
+(5, 'Bydgoszcz'),
+(6, 'Szubin'),
+(7, 'Bydgoszcz'),
+(8, 'Bydgoszcz'),
+(9, 'Nakło nad Notecią'),
+(10, 'Bydgoszcz'),
+(11, 'Inowrocław'),
+(12, 'Bydgoszcz'),
+(13, 'Białe Błota'),
+(14, 'Otorowo'),
+(15, 'Bydgoszcz');
 
 -- --------------------------------------------------------
 
