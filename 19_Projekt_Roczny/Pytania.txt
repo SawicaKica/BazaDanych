@@ -1,0 +1,94 @@
+Pytania:
+
+TYPY DANYCH:
+	1. Który typ danych odpowiada za liczby całkowite (1):
+		a) VARCHAR
+		b) DOUBLE
+		c) TEXT
+		d) INT //poprawna
+	
+	2. Który z poniższych typów danych odpowiada tylko i wyłącznie za datę (1):
+		a) REAL
+		b) DATE //poprawna
+		c) DATETIME
+		d) TEXT
+		
+	3. Typ danych, z stałą dokładnością i podziałką to (1):
+		a) FLOAT(N)
+		b) NUMERIC
+		c) BIT
+		d) DECIMAL //poprawna
+		
+	4. Który z poniższych typów danych służy do przechowywania tekstu, o maksymalnej długości [8000] znaków (1):
+		a) CHAR
+		b) TEXT
+		c) NVARCHAR
+		d) VARCHAR //poprawna
+	
+	5. Który z poniższych typów danych odpowiada za walutę (1):
+		a) REAL
+		b) DATETIME
+		c) MONEY //poprawna
+		d) NUMERIC
+		
+MODYFIKOWANIE TABELI:
+	1. Które z poniższych polecień jest poprawne (1):
+		a) TABLE CREATE nazwaTabeli();
+		b) STWORZ TABELA nazwaTabeli();
+		c) CREATE TABLE nazwaTabeli(); //poprawna
+		d) TABELA STWORZ nazwaTabeli();
+		
+	2. Co należy dopisać do polecenia aby stworzyć w tabeli klucz podstawowy (1):
+		a) "Key"
+		b) "Klucz podstawowy"
+		c) "Klucz"
+		d) "Primary key" //poprawna
+		
+	3. Jak usunąć daną tabele (1):
+		a) Usuń tabela nazwaTabeli;
+		b) Drop table nazwaTabeli; //poprawna
+		c) Drop nazwaTabeli;
+		d) Usuń nazwaTabeli;
+	
+	4. Jak usunąć daną baze danych (1):
+		a) Drop database nazwaBazyDanych; //poprawna
+		b) usuń nazwaBazyDanych;
+		c) Drop nazwaBazyDanych;
+		d) usuń bazeDanych nazwaBazyDanych;
+	
+	5. Jak dodać do istniejącej tabeli nową, tekstową kolumne (1):
+		a) add nazwaKolumny 5; 
+		b) add nazwaKolumny VARCHAR(20); //poprawna
+		c) add nazwaKolumny INT(11);
+		d) Dodaj nazwaKolumny VARCHAR(20);
+		
+PYTANIA OGÓLNE:
+	1. Do czego służy AVG? (1):
+		a) Do niczego.
+		b) Wylicza średnie z danych rekordów. //poprawna
+		c) Liczy sume wszystkich rekordów
+		d) Dodaje do tabeli relacje.
+	
+	2. Do czego służy SUM? (1):
+		a) Do wyliczania sumy
+		b) Do liczenia średniej //poprawna
+		c) Do jedzenia
+		d) Do niczego
+		
+	3. Do czego służy COUNT? (1):
+		a) Zlicza puste miejsca w tabeli
+		b) Dodaje do tabeli nowe kolumny
+		c) Pozwala nam zliczyć ilość wierszy zwróconych przez zapytanie //poprawna
+		d) Funkcja count nie istnieje
+		
+	4. Czym jest transakcja? (1):
+		a) Transakcje to masz w sklepie.
+		b) Jest to zbiór operacji wykonanych w bazie danych //poprawna
+		c) Jest udcziwa wymiana dwóch produktów
+		d) Wymiana produktu za pieniądze.
+		
+	5. Czy można założyć indeks na kilku kolumnach? (1):
+		a) Nie można
+		b) Można
+		c) Można tylko na jednej
+		d) Można, ale pod pewnym warunkiem.
