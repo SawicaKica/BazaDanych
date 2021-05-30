@@ -1,6 +1,6 @@
 Pytania:
 
-TYPY DANYCH:
+1. TYPY DANYCH:
 	1. Który typ danych odpowiada za liczby całkowite (1):
 		a) VARCHAR
 		b) DOUBLE
@@ -31,7 +31,7 @@ TYPY DANYCH:
 		c) MONEY //poprawna
 		d) NUMERIC
 		
-MODYFIKOWANIE TABELI:
+2. MODYFIKOWANIE TABELI:
 	1. Które z poniższych polecień jest poprawne (1):
 		a) TABLE CREATE nazwaTabeli();
 		b) STWORZ TABELA nazwaTabeli();
@@ -62,7 +62,7 @@ MODYFIKOWANIE TABELI:
 		c) add nazwaKolumny INT(11);
 		d) Dodaj nazwaKolumny VARCHAR(20);
 		
-PYTANIA OGÓLNE:
+3. PYTANIA OGÓLNE:
 	1. Do czego służy AVG? (1):
 		a) Do niczego.
 		b) Wylicza średnie z danych rekordów. //poprawna
@@ -89,6 +89,37 @@ PYTANIA OGÓLNE:
 		
 	5. Czy można założyć indeks na kilku kolumnach? (1):
 		a) Nie można
-		b) Można
+		b) Można //poprawna
 		c) Można tylko na jednej
 		d) Można, ale pod pewnym warunkiem.
+4. TEORIA:
+	
+	1. Czym jest SQL? (1):
+		a) Inna nazwa Internetu
+		b) Językiem baz danych //poprawna
+		c) Niczym
+		d) Inna.
+
+	2. Do czego służy SQL? (1):
+		a) Do wykonywania zapytań w bazach danych //poprawna 
+		b) Do zabezpieczania stron internetowych.
+		c) Do produkcji filmów
+		d) Do niczego.
+
+	3. Czym jest klucz główny? (1):
+		a) Kombinacją pól, które jednoznaczenie określają wiersz //poprawna
+		b) Kluczem dostępu do bazy danych
+		c) Hasłem zabezpieczającym bazę danych.
+		d) Niczym
+
+	4. Czym jest klucz obcy? (1):
+		a) Klucz obcy określany jest jako klucz powiązany z kluczem głównym innej tabeli //poprawna
+		b) Losowych hasłem
+		c) Uprawnia do modyfikowania tabeli
+		d) Niczym
+
+	5. Jaka funkcja służy do zwracania reszty z dzielenia w SQL? (1):
+		a) WWD
+		b) RLS
+		d) MOD //poprawna
+		c) LKM
